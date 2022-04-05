@@ -1,71 +1,86 @@
 /*******************tag selectors*******************/
 body{
-  background-color: #FAD9E6
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  background-color: #FAD9E6;
 }
-  hr{
-    border-style: none;
-    border-top-style: solid;
-    border-color: #FAD9E6;
-    border-top-color: #5F7464;
-    width: 1000px;
-    border-width: 4px;
-    margin-left: 0;
-  }
-  h1{
-    color: #243D25;
-      font-family: Verdana;
-  }
-  h3{
-    color: #5F7464;
-      font-family: Verdana;
-  }
-  p{
-    font-family: verdana;
-    color: #243D25;
-  }
-  table{
-    font-family: verdana;
-    color: #243D25;
-  }
-  ul{
-    font-family: verdana;
-    color: #243D25;
-  }
-  ol{
-    font-family: verdana;
-    color: #243D25;
-  }
-  img{
-    background-color: #FAD9E6;
-  }
-  img:hover {
-    background-color: #5F7464;
-  }
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #FAD9E6;
+  border-top-color: #5F7464;
+  width: 1000px;
+  border-width: 4px;
+  margin-left: 0;
+}
+
+h1 {
+  color: #243D25;
+}
+
+h3 {
+  color: #5F7464;
+}
+
+p {
+  color: #243D25;
+}
+
+table {
+  color: #243D25;
+}
+
+ul {
+  color: #243D25;
+}
+
+ol {
+  color: #243D25;
+}
+
+img {
+  background-color: #FAD9E6;
+}
+
+img:hover {
+  background-color: #5F7464;
+}
+
 /*******************class selectors*******************/
-  .tb1 {
-    padding-bottom: 61px;
-  }
-  .hr1{
-    border-style: none;
-    border-top-style: solid;
-    border-color: #FAD9E6;
-    border-top-color: #5F7464;
-    width: 537px;
-    border-width: 4px;
-  }
-  .hr2{
-    border-style: none;
-    border-top-style: solid;
-    border-color: #FAD9E6;
-    border-top-color: #5F7464;
-    width: 750px;
-    border-width: 4px;
-  }
-  .hr3{
-    border-style: none;
-    border-top-style: solid;
-    border-color: #FAD9E6;
-    border-top-color: #5F7464;
-    width: 600px;
-    border-width: 4px;
-  }
+.tb1 {
+  padding-bottom: 61px;
+}
+
+.hr1 {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #FAD9E6;
+  border-top-color: #5F7464;
+  width: 537px;
+  border-width: 4px;
+}
+
+.hr2 {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #FAD9E6;
+  border-top-color: #5F7464;
+  width: 750px;
+  border-width: 4px;
+}
+
+.hr3 {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #FAD9E6;
+  border-top-color: #5F7464;
+  width: 600px;
+  border-width: 4px;
+}
+
+.degree {
+  position: absolute;
+  right: 100px;
+  top: 55px;
+}
